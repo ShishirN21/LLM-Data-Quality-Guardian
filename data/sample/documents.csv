@@ -1,0 +1,26 @@
+doc_id,content,category,created_at
+doc_001,"Python is a high-level programming language known for its simplicity and readability. It was created by Guido van Rossum and first released in 1991.",programming,2024-01-15
+doc_002,"Machine learning is a subset of artificial intelligence that enables systems to learn from data without being explicitly programmed. Common algorithms include decision trees, neural networks, and support vector machines.",ai,2024-02-10
+doc_003,"The Great Wall of China is approximately 13,171 miles long. It was built over many centuries, with the most well-known sections built during the Ming Dynasty.",history,2024-03-05
+doc_004,"PostgreSQL is an advanced open-source relational database management system. It supports both SQL and JSON querying, making it versatile for modern applications.",database,2024-01-20
+doc_005,"Python was created in the late 1980s and first released in 1991. It emphasizes code readability with its use of significant whitespace.",programming,2024-04-01
+doc_006,"The Great Wall of China is not visible from space with the naked eye, contrary to popular belief. It is approximately 21,196 kilometers long.",history,2024-04-10
+doc_007,"Deep learning is a type of machine learning that uses neural networks with many layers. It has revolutionized computer vision, natural language processing, and speech recognition.",ai,2024-05-15
+doc_008,"MongoDB is a NoSQL database that stores data in flexible, JSON-like documents. It is not suitable for complex transactions but excels at horizontal scaling.",database,2024-02-28
+doc_009,"RAG (Retrieval Augmented Generation) is a technique that enhances LLM outputs by retrieving relevant documents from a knowledge base before generating responses.",ai,2024-06-01
+doc_010,"Vector databases like ChromaDB and Pinecone are purpose-built for storing and querying high-dimensional embedding vectors, which are essential for modern AI applications.",database,2024-06-15
+doc_011,"The Python programming language has over 400,000 packages available on PyPI. Its ecosystem includes frameworks like Django, Flask, FastAPI, and data science tools like pandas and NumPy.",programming,2024-07-01
+doc_012,"Transfer learning allows a model trained on one task to be fine-tuned for a different but related task. This approach significantly reduces the amount of training data needed.",ai,2024-07-10
+doc_013,"Data quality is critical for machine learning models. Poor data quality can lead to biased predictions, reduced accuracy, and unreliable model outputs.",ai,2024-08-01
+doc_014,"The transformer architecture, introduced in the 2017 paper 'Attention Is All You Need', revolutionized natural language processing and led to models like BERT, GPT, and T5.",ai,2024-08-15
+doc_015,"SQLite is a serverless, self-contained SQL database engine. It is the most widely deployed database engine in the world, found in smartphones, browsers, and embedded systems.",database,2024-09-01
+doc_016,"Kubernetes is an open-source container orchestration platform. It automates deployment, scaling, and management of containerized applications across clusters of machines.",devops,2024-09-15
+doc_017,"The Python GIL (Global Interpreter Lock) prevents true multi-threaded parallelism for CPU-bound tasks. However, Python 3.13 is working on making the GIL optional.",programming,2023-01-10
+doc_018,"Neural networks are not inspired by biological neurons. They are purely mathematical constructs with no real connection to brain function.",ai,2024-10-01
+doc_019,"Neural networks are inspired by biological neurons in the human brain. Each artificial neuron receives inputs, applies weights, and produces an output through an activation function.",ai,2024-10-05
+doc_020,"Climate change has caused global temperatures to rise by approximately 1.1 degrees Celsius since pre-industrial times. The Paris Agreement aims to limit warming to 1.5 degrees.",science,2023-03-15
+doc_021,"The speed of light in a vacuum is exactly 299,792,458 meters per second. This is a fundamental constant of nature denoted by the letter c.",science,2024-11-01
+doc_022,"Embeddings are dense vector representations of data that capture semantic meaning. Similar items have embeddings that are close together in the vector space.",ai,2024-11-15
+doc_023,"Docker containers provide lightweight virtualization by sharing the host OS kernel. Unlike virtual machines, containers do not require a full guest operating system.",devops,2024-03-20
+doc_024,"Apache Kafka is a distributed event streaming platform used for building real-time data pipelines. It can handle millions of messages per second with low latency.",data_engineering,2024-12-01
+doc_025,"The Python 2 end-of-life was January 1, 2020. All new Python projects should use Python 3, which offers improved Unicode support, async capabilities, and type hints.",programming,2019-06-15

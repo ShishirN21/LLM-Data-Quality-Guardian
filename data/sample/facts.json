@@ -1,0 +1,42 @@
+[
+  {
+    "content": "The Earth orbits the Sun at an average distance of about 93 million miles (150 million kilometers).",
+    "category": "science",
+    "source": "astronomy_textbook"
+  },
+  {
+    "content": "Python 3.12 introduced several performance improvements including faster comprehensions and a new type parameter syntax.",
+    "category": "programming",
+    "source": "python_docs"
+  },
+  {
+    "content": "Large Language Models like GPT-4 and Claude are trained on vast amounts of text data using self-supervised learning techniques.",
+    "category": "ai",
+    "source": "ai_research"
+  },
+  {
+    "content": "The human genome contains approximately 3 billion base pairs of DNA and roughly 20,000-25,000 protein-coding genes.",
+    "category": "biology",
+    "source": "genetics_journal"
+  },
+  {
+    "content": "Redis is an in-memory data structure store used as a database, cache, and message broker. It supports strings, hashes, lists, sets, and sorted sets.",
+    "category": "database",
+    "source": "redis_docs"
+  },
+  {
+    "content": "Prompt engineering involves crafting inputs to LLMs to elicit desired outputs. Techniques include few-shot learning, chain-of-thought, and role prompting.",
+    "category": "ai",
+    "source": "ai_practices"
+  },
+  {
+    "content": "The GDPR (General Data Protection Regulation) requires organizations to protect personal data of EU citizens. Non-compliance can result in fines up to 4% of annual global turnover.",
+    "category": "legal",
+    "source": "eu_regulations"
+  },
+  {
+    "content": "Quantum computers use qubits instead of classical bits. Qubits can exist in superposition, enabling certain computations to be performed exponentially faster.",
+    "category": "science",
+    "source": "quantum_computing"
+  }
+]

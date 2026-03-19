@@ -1,0 +1,13 @@
+Data pipelines are the backbone of modern data-driven organizations. They automate the flow of data from source systems through transformation stages to target destinations where it can be analyzed and used for decision-making.
+
+ETL (Extract, Transform, Load) and ELT (Extract, Load, Transform) are two common paradigms for data pipeline architecture. ETL transforms data before loading, while ELT loads raw data first and transforms it in the target system.
+
+Data quality monitoring ensures that data flowing through pipelines meets defined standards for accuracy, completeness, consistency, and timeliness. Without quality checks, downstream consumers may make decisions based on incorrect or incomplete data.
+
+Schema drift occurs when the structure of source data changes unexpectedly — new columns appear, data types change, or fields are removed. Effective data pipelines must detect and handle schema drift gracefully.
+
+Semantic drift is a subtler form of data change where the meaning or distribution of data values shifts over time while the schema remains unchanged. For example, a sentiment score field might gradually shift from a normal distribution to a skewed one.
+
+Observability in data systems goes beyond traditional monitoring. It includes the ability to understand the internal state of a system by examining its outputs — logs, metrics, and traces — without deploying new code.
+
+Data contracts are formal agreements between data producers and consumers that define the structure, semantics, and quality guarantees of shared datasets. They help prevent breaking changes from propagating through the data ecosystem.

@@ -1,0 +1,49 @@
+embeddings:
+  model_name: "all-MiniLM-L6-v2"
+  batch_size: 64
+  cache_dir: ".cache/embeddings"
+
+vector_store:
+  persist_directory: ".data/chromadb"
+  collection_name: "documents"
+
+metrics_store:
+  database_path: ".data/metrics.db"
+
+drift:
+  baseline_window_days: 30
+  detection_window_days: 7
+  ks_test_alpha: 0.05
+  cosine_sim_threshold: 0.85
+  mmd_threshold: 0.1
+  min_samples: 10
+
+hallucination:
+  contradiction_sim_threshold: 0.8
+  contradiction_neg_threshold: 0.3
+  entity_ambiguity_threshold: 3
+  temporal_staleness_days: 365
+  sparse_context_min_neighbors: 5
+  sparse_context_radius: 0.3
+
+quality:
+  freshness_warning_hours: 24
+  freshness_critical_hours: 72
+
+rag:
+  relevance_threshold: 0.7
+  chunk_size_target: 512
+  chunk_overlap: 50
+  context_coverage_min: 0.6
+  top_k: 5
+
+alerts:
+  console_enabled: true
+  webhook_enabled: false
+  webhook_url: ""
+  severity_threshold: "WARNING"
+
+pipeline:
+  data_directories:
+    - "data/sample"
+  supported_extensions: [".csv", ".json", ".txt", ".md"]

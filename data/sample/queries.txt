@@ -1,0 +1,8 @@
+What is machine learning and how does it work?
+How do vector databases store embeddings?
+What are the best practices for data quality monitoring?
+Explain the transformer architecture in NLP
+What is the difference between ETL and ELT?
+How does RAG improve LLM accuracy?
+What is semantic drift in data pipelines?
+How do neural networks learn from data?
