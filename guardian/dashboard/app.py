@@ -205,13 +205,13 @@ def render_rag_dashboard(store: MetricsStore) -> None:
     latest_run = df["run_id"].iloc[-1]
     latest = df[df["run_id"] == latest_run]
 
-    for _, row in latest.iterrows():
+    for idx, row in latest.iterrows():
         details = json.loads(row["details_json"]) if row["details_json"] else {}
         st.metric(
             row["metric_name"].replace("_", " ").title(),
             f"{row['score']:.3f}",
         )
-        if details and st.checkbox(f"Details: {row['metric_name']}", key=row["metric_name"]):
+        if details and st.checkbox(f"Details: {row['metric_name']}", key=f"{latest_run}_{idx}_{row['metric_name']}"):
             st.json(details)
 
     # Trend

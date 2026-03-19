@@ -23,8 +23,8 @@ hallucination:
   contradiction_neg_threshold: 0.3
   entity_ambiguity_threshold: 3
   temporal_staleness_days: 365
-  sparse_context_min_neighbors: 5
-  sparse_context_radius: 0.3
+  sparse_context_min_neighbors: 2
+  sparse_context_radius: 0.5
 
 quality:
   freshness_warning_hours: 24
